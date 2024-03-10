@@ -17,5 +17,22 @@ namespace MVCBulkyWeb.Controllers
 			List<Category> objCategoryList = _db.Categories.ToList();
 			return View(objCategoryList);
 		}
+
+		public IActionResult Create()
+		{
+			return View();
+		}
+		[HttpPost]
+		public IActionResult Create(Category category)
+		{
+			if(ModelState.IsValid)
+			{
+
+			_db.Categories.Add(category);
+			_db.SaveChanges();
+			return RedirectToAction("Index");
+			}
+			return View();
+		}
 	}
 }
