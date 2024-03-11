@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MVCBulkyWeb.Data;
-using MVCBulkyWeb.Models;
+using MVCBulky.DataAccess;
+using MVCBulky.Models;
+
 
 namespace MVCBulkyWeb.Controllers
 {

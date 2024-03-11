@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MVCBulkyWeb.Models;
+using MVCBulky.Models;
 using System.Diagnostics;
 
 namespace MVCBulkyWeb.Controllers

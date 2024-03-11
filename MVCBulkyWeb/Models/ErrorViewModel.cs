@@ -1,4 +1,4 @@
-namespace MVCBulkyWeb.Models
+namespace MVCBulky.Models
 {
 	public class ErrorViewModel
 	{

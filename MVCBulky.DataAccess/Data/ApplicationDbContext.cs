@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MVCBulkyWeb.Models;
+using MVCBulky.Models;
 
-namespace MVCBulkyWeb.Data
+namespace MVCBulky.DataAccess
 {
 	public class ApplicationDbContext:DbContext
 	{

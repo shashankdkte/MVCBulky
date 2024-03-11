@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MVCBulkyWeb.Data;
+using MVCBulky.DataAccess;
+using MVCBulky.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 
-namespace MVCBulkyWeb.Models
+namespace MVCBulky.Models
 {
 	public class Category
 	{
